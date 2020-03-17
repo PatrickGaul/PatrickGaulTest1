@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "C:\\Users\\Patrick\\AppData\\Roaming\\Projects\\dev\\NasaApolloMissionViewer"
+		}
+	],
+	"settings": {
+		"typescript.tsdk": ".\\node_modules\\typescript\\lib"
+	}
+}

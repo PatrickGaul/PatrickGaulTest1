@@ -1,0 +1,28 @@
+ {
+  "$schema":"https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+"id":"af8ffff2-c259-4190-813a-bcef873d2ba3", 
+  "alias":"NasaApolloMissionViewerWebPart", 
+  "componentType":"WebPart", 
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version":"*", 
+  "manifestVersion":2, 
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript":false, 
+  "supportedHosts":["SharePointWebPart"], 
+
+  "preconfiguredEntries":[ {
+    "groupId":"5c03119e-3074-46fd-976b-c60198311f70", // Other
+    "group": { "default":"Other" }, 
+    "title": { "default":"NASA Apollo Mission Viewer" }, 
+    "description": { "default":"NASA Apollo Mission Viewer Web Part (Voitanos SPFx Course)" }, 
+    "officeFabricIconFontName":"Page", 
+    "properties": {
+      "description":"NASA Apollo Mission Viewer",
+      "selectedMission":"AS-507"
+    }
+  }]
+}
